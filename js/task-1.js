@@ -1,6 +1,6 @@
-const getUserNames = array => array;
+const getUserNames = array => users.map(user => user.name);
 
-// console.log(getUserNames(users));
+console.log(getUserNames(users));
 
 /* [
   "Moore Hensley",

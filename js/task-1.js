@@ -1,4 +1,9 @@
-const getUserNames = array => users.map(user => user.name);
+// Деструктурирующее присваивание (ДП) в перебирающем методе мар.
+// функция getUserNames принимает массив как параметр, после чего вызывает 
+// на массиве функцию мар которая получает пармаетр свойство с ключем name 
+// c помощью ДП и возвращает значения свойства
+
+const getUserNames = array => array.map(({ name }) => name);
 
 console.log(getUserNames(users));
 

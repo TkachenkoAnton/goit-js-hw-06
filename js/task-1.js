@@ -5,7 +5,7 @@
 
 const getUserNames = array => array.map(({ name }) => name);
 
-console.log(getUserNames(users));
+// console.log(getUserNames(users));
 
 /* [
   "Moore Hensley",

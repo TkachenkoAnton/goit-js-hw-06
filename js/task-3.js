@@ -6,4 +6,4 @@
 const getUsersWithGender = (array, gender) => array.filter(human => human.gender === gender)
     .map(({name}) => name);
 
-console.log(getUsersWithGender(users, 'male'));
+// console.log(getUsersWithGender(users, 'male'));

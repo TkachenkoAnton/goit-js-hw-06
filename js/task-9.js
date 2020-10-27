@@ -9,4 +9,4 @@ const getNamesSortedByFriendsCount = array =>
         .sort((prev, next) => prev.friends.length - next.friends.length)
         .map(({name}) => name);
 
-console.log(getNamesSortedByFriendsCount(users));
+// console.log(getNamesSortedByFriendsCount(users));
